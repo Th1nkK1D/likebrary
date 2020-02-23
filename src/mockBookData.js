@@ -143,66 +143,6 @@ const bookData = [
     "searchInfo": {
       "textSnippet": "เทรดแบบเซียนหุ้น ให้ได้กำไรขั้นเทพ มาร์ค มิเนอร์วินี ผู้ชนะรางวัล US Investing Champion ..."
     }
-  },
-  {
-    "kind": "books#volume",
-    "id": "Vk4YAAAACAAJ",
-    "etag": "2CW+n2E24qk",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/Vk4YAAAACAAJ",
-    "volumeInfo": {
-      "title": "จุดจบแห่งจินตนาการ",
-      "authors": [
-        "Arundhati Roy"
-      ],
-      "publishedDate": "2005",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_10",
-          "identifier": "9749314298"
-        },
-        {
-          "type": "ISBN_13",
-          "identifier": "9789749314296"
-        }
-      ],
-      "readingModes": {
-        "text": false,
-        "image": false
-      },
-      "pageCount": 149,
-      "printType": "BOOK",
-      "categories": [
-        "India"
-      ],
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": false,
-      "contentVersion": "preview-1.0.0",
-      "language": "th",
-      "previewLink": "http://books.google.co.th/books?id=Vk4YAAAACAAJ&dq=9780241380222&hl=&cd=3&source=gbs_api",
-      "infoLink": "http://books.google.co.th/books?id=Vk4YAAAACAAJ&dq=9780241380222&hl=&source=gbs_api",
-      "canonicalVolumeLink": "https://books.google.com/books/about/%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%88%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%88%E0%B8%B4%E0%B8%99%E0%B8%95.html?hl=&id=Vk4YAAAACAAJ"
-    },
-    "saleInfo": {
-      "country": "TH",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
-    },
-    "accessInfo": {
-      "country": "TH",
-      "viewability": "NO_PAGES",
-      "embeddable": false,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": false
-      },
-      "pdf": {
-        "isAvailable": false
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=Vk4YAAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "NONE",
-      "quoteSharingAllowed": false
-    }
   }
 ];
 
