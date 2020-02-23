@@ -36,6 +36,7 @@
       object-fit: cover;
       border-radius: 5px;
       transition: transform .25s;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
     }
 
     .content {
