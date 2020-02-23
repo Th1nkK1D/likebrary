@@ -17,7 +17,7 @@
 </main>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Playfair+Display:600&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,500|Playfair+Display:600&display=swap');
 	main {
 		margin: 0 auto;
 		padding: 2rem 4rem;

@@ -27,11 +27,15 @@
     display: flex;
     flex-direction: row;
     margin: 1.5rem 0;
-    width: calc(33% - 1.5rem);
+    width: calc(33% - 2rem);
+    cursor: pointer;
 
     img {
-      width: 100%;
-      height: auto;
+      width: 120px;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+      transition: transform .25s;
     }
 
     .content {
@@ -40,6 +44,12 @@
 
       p {
         opacity: 0.6;
+      }
+    }
+
+    &:hover {
+      img {
+        transform: translateY(-0.5rem);
       }
     }
   }
