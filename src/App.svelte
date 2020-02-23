@@ -5,12 +5,12 @@
 
 <main>
 	<div class="header">
-		<h1>LK's Library</h1>
-		<p class="subtitle">Feel free to morrow one because book is meant for sharing.</p>
+		<h1>LK's Bookshelf</h1>
+		<p class="subtitle">Feel free to borrow some, because books is meant for sharing.</p>
 	</div>
 	
 	<div class="bookshelf">
-		{#each bookData as book}
+		{#each [...bookData, ...bookData, ...bookData] as book}
 			<Book book={book} />
 		{/each}
 	</div>
@@ -23,14 +23,26 @@
 		padding: 2rem 4rem;
 		font-family: 'Bai Jamjuree';
 
-		h1 {
-			font-family: 'Playfair Display', 'sans-serif';
-			font-size: 4rem;
-			margin: 0;
+		.header {
+			margin-bottom: 2rem;
+
+			h1 {
+				font-family: 'Playfair Display', 'sans-serif';
+				font-size: 4rem;
+				margin: 0;
+			}
+
+			.subtitle {
+				font-size: 1.2rem;
+				margin: 0.5rem 0;
+			}
 		}
 
-		.subtitle {
-			font-size: 1.2rem;
+		.bookshelf {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
 		}
 	}
 </style>
