@@ -26,8 +26,6 @@
   .book {
     display: flex;
     flex-direction: row;
-    margin: 1.5rem 0;
-    width: calc(33% - 2rem);
     cursor: pointer;
 
     img {
